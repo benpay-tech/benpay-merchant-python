@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "benpay_merchant_api_sdk"
-version = "0.0.9"
+version = "1.0.0"
 description = "python sdk for benpay merchant"
 authors = ["yangbo <yangbovin@gmail.com>"]
 readme = "README.md"
