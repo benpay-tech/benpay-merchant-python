@@ -1,22 +1,3 @@
-# Python SDK for Benpay merchant API
-
-# API Documentation
-- [Official documentation](https://docs.benpay.org/zh-Hans/BenPay/Doc/api_doc/)
-
-# Installation
-
-```bash
-pip install benpay_merchant_api_sdk
-```
-
-# Usage
-> Consider `/v1/payment/create` as a reference, the full code can be located in the demo directory.
-* Get api key info
-
-https://www.benpay.org/paymvp/business
-
-* create order
-```python
 import config
 import sys
 import uuid
@@ -45,4 +26,3 @@ if resp.status_code == 200:
     print(resp.json())
 else:
     print(resp.text)
-```%
