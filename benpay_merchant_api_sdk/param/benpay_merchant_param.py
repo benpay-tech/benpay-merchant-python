@@ -1,8 +1,8 @@
 class CreatePayOrderParam:
     def __init__(self):
         self.coin = None
-        self.coin_amount = None
-        self.out_trade_no = None
+        self.amount = None
+        self.merchant_order_no = None
         self.merchant_note = None
 
 
@@ -21,4 +21,4 @@ class GetPayOrderListParam:
         self.created_at_begin = None
         self.created_at_end = None
         self.payment_id = None
-        self.out_trade_no = None
+        self.merchant_order_no = None
