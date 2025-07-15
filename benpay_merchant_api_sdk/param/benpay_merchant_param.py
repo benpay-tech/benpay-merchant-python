@@ -17,7 +17,6 @@ class GetPayOrderListParam:
         self.limit = None
         self.offset = None
         self.order_by = None
-        self.status = None
         self.created_at_begin = None
         self.created_at_end = None
         self.payment_id = None
