@@ -43,9 +43,9 @@ class BenpayMerchantClient:
         url = urljoin(self.server, path)
 
         if method == "GET":
-            response = requests.get(url, headers=headers, data=json.dumps(params).encode('utf-8'))
+            response = requests.get(url, headers=headers, data=json.dumps(params).encode('utf-8'), timeout=5)
         else:
-            response = requests.post(url, headers=headers, data=json.dumps(params).encode('utf-8'))
+            response = requests.post(url, headers=headers, data=json.dumps(params).encode('utf-8'), timeout=5)
 
         return self._do_res(response)
 
