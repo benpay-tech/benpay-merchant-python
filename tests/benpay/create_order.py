@@ -15,8 +15,8 @@ client = BenpayMerchantClient(
 )
 
 param = benpay_param.CreatePayOrderParam()
-param.coin = "BUSD"
-param.amount = "0.1"
+param.coin = "BEUR"
+param.amount = "0.01"
 param.merchant_order_no = uuid.uuid4().hex
 param.merchant_note = "22222"
 
