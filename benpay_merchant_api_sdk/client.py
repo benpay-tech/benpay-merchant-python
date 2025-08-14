@@ -26,7 +26,7 @@ class BenpayMerchantClient:
             if is_valid:
                 return response
             else:
-                raise ValueError("signature Fail")
+                raise ValueError("signature fail")
         else:
             return response
 
