@@ -3,6 +3,11 @@
 # API Documentation
 - [Official documentation](https://docs.benpay.org/zh-Hans/BenPay/Doc/api_doc/)
 
+# Installation
+
+```bash
+pip install benpay_merchant_api_sdk
+```
 
 # Usage
 > Consider `/v1/payment/create` as a reference, the full code can be located in the demo directory.
